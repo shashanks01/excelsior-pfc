@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Some Title </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body> 
+    <div class="container">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-md-12 text-center"><h2><b>Define PFC</b></h2></div>
+                    <!-- <div class="slider">
+                            <label class="switch switch-left-right">
+                              <input class="switch-input checkbox-1" type="checkbox">
+                              <span class="switch-label" data-on="On" data-off="Off"></span> <span class="switch-handle"></span> </label>
+                          </div>
+                       -->
+                </div>
+            </div>
+            <table id="myTable" class="table table-bordered order-list form-group">
+                <thead>
+                    <tr>
+                        <td class="col-sm-1 text-center"> <h5> Index No. </h5> </td>
+                        <td class="text-center"> <h4> <b> Header </b> </h3> </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-md-1 text-center">
+                            <span class="sl-no"> 1 </span>
+                            <!-- <input type="text" name="index" class="form-control" /> -->
+                        </td>
+                        <td class="col-md-10">
+                            <input type="text" name="header" class="form-control"/>
+                        </td>
+                        <td class="col-md-1"> 
+                            <a class="deleteRow"></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="float: right">
+            <button type="button" id="addrow" class="btn btn-primary add-new" style="border-radius: 50%; width: 50px; height: 50px"><i class="fa fa-plus fa-2x"></i></button>
+        </div>
+    </div>
+</body>
+</html>
+
+
